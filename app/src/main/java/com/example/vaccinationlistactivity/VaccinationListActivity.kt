@@ -10,6 +10,8 @@ import com.google.gson.reflect.TypeToken
 class VaccinationListActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityVaccinationListBinding
+    lateinit var adapter : VaccineAdapter
+    lateinit var vaccineInformation : VaccinationInfo
 
     companion object {
         val TAG = "VaccinationListActivity"
@@ -19,6 +21,8 @@ class VaccinationListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityVaccinationListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val vaccinationAPI = Retrofit
 
         val inputStream = resources.openRawResource(R.raw.data)
         val jsonString = inputStream.bufferedReader().use {

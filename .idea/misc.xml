@@ -3,8 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_vaccination_detail.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/activity_vaccination_list.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_vaccination_detail.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/activity_vaccination_list.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_vaccination_list_actvity.xml" value="0.20314083080040526" />
       </map>
     </option>

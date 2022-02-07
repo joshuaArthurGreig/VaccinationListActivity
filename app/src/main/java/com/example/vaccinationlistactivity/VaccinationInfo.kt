@@ -1,6 +1,12 @@
 package com.example.vaccinationlistactivity
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+import java.util.*
+
+
+@Parcelize
 data class VaccinationInfo(
     var country : String,
-    var timeline : Array<Int>
-)
+    var timeline : SortedMap<String, Long>
+) : Parcelable
