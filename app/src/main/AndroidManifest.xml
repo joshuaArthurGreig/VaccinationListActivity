@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vaccinationlistactivity">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,9 +13,6 @@
         android:theme="@style/Theme.VaccinationListActivity">
         <activity
             android:name=".VaccinationDetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".VaccinationListActvity"
             android:exported="false" />
         <activity
             android:name=".VaccinationListActivity"
